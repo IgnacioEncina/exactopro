@@ -290,9 +290,6 @@ ul {
         /* opacity: 0; */
         background-size: 120%;
         background-attachment: fixed;
-        @media (min-width: 1200px) {
-            background-size: cover;
-        }
     }
 
     
@@ -302,13 +299,6 @@ ul {
         background-size: 143%;
         background-attachment: fixed;
         background-position: left;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        @media (min-width: 1200px) {
-            background-size: cover;
-        }
     }
 
     50% {
@@ -318,9 +308,6 @@ ul {
         background-size: 148%;
         background-attachment: fixed;
         background-position-x: left ;
-        @media (min-width: 1200px) {
-            background-size: cover;
-        }
 
 
     }
@@ -329,9 +316,6 @@ ul {
         background: url('../images/big_2_opacidad.jpg') no-repeat center center/cover ;
         background-size: 180%;
         background-attachment: fixed;
-        @media (min-width: 1200px) {
-            background-size: cover;
-        }
     }
 }
 
