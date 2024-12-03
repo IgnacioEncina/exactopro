@@ -293,7 +293,7 @@ ul {
     }
 
     
-    48% {
+    45% {
         background: url('../images/big_capaOpacidad.jpg') no-repeat center center/cover ;
         /* opacity: 0; */
         background-size: 143%;
@@ -301,7 +301,7 @@ ul {
         background-position: left;
     }
 
-    50% {
+    55% {
         /* opacity: 1; */
         color-interpolation-filters: linearRGB;
         background: url('../images/big_2_opacidad.jpg') no-repeat center center/cover ;
@@ -953,7 +953,7 @@ header .nav-links.active {
         }
 
         
-        48% {
+        45% {
             background: url('../images/big_capaOpacidad.jpg') no-repeat center center/cover ;
             /* opacity: 0; */
             /* background-size: 143%; */
@@ -961,13 +961,13 @@ header .nav-links.active {
             background-position: left;
         }
 
-        50% {
+        55% {
             /* opacity: 1; */
             /* color-interpolation-filters: linearRGB; */
             background: url('../images/big_2_opacidad.jpg') no-repeat center center/cover ;
             /* background-size: 148%; */
             background-attachment: fixed;
-            background-position-x: -200px ;
+            background-position-x: left ;
 
 
         }
