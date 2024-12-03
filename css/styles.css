@@ -21,7 +21,6 @@ header {
     z-index: 100;
     display: block;
     box-sizing: content-box;
-    /* height: 200px; */
 
     .headerBottom {
         height: 50px;
@@ -45,7 +44,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 30px; */
 }
 
 .navbar {
@@ -59,11 +57,6 @@ main {
 ul {
     margin-bottom: 0 !important;
 }
-/* 
-#nav-links {
-    display: flex;
-    align-items: center;
-} */
 
 .logo img {
     width: 150px;
@@ -100,8 +93,6 @@ ul {
 
 /* Hero Section */
 .hero {
-    /* background: url('../images/big_capaOpacidad.jpg') no-repeat center center/cover ; */
-    /* position: absolute; */
     height: 87vh;
     width: 100%;
     display: flex;
@@ -117,8 +108,6 @@ ul {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     overflow: hidden;
-    /* margin-top: 100px; */
-    /* position: fixed; */
 
     div {
         max-width: 100%;
@@ -127,10 +116,7 @@ ul {
     .box {
         position: relative;
         display: block;
-        /* inline-size: 200px; */
-        /* flex-wrap: nowrap; */
         height: 160px;
-        /* width: 80%; */
         border: 4px solid white;
         background: rgb(25, 40, 128, 0.3);
         animation-name: change-width;
@@ -142,10 +128,6 @@ ul {
         justify-content: center;
     }
 
-
-    /* .box:hover {
-        border: 10px solid white;
-    } */
 
     .Bienvenido {
         display: flex;
@@ -166,14 +148,10 @@ ul {
         flex-wrap: nowrap;
         display: block;
         font-size: 48px;
-        /* margin-bottom: 10px; */
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 15px;
-        /* max-width: 80%; */
         text-align: left;
-        /* min-inline-size: min-content; */
-        /* clip-path: inset(298px 90px at -54% 95%); */
         animation-name: change-clip-path;
         animation-duration: 800ms;
         animation-timing-function: linear;
@@ -197,7 +175,6 @@ ul {
         width: 80%;
         filter: drop-shadow(2px 4px 21px white);
         translate: 20px;
-        /* z-index: -200; */
         animation-name: img-move;
         animation-duration: 3s;
         animation-timing-function: linear;
@@ -205,16 +182,6 @@ ul {
         overflow: hidden;
     }
 }
-
-/* .hero:before{
-    content: '';
-    position: absolute;
-    background-color: #0000009d;
-    top: 0;
-    bottom: -45px;
-    left: 0;
-    right: 0;
-} */
 
 
 @keyframes change-width {
@@ -287,7 +254,6 @@ ul {
 @keyframes back-change {
     0% {
         background: url('../images/big_capaOpacidad.jpg') no-repeat center center/cover ;
-        /* opacity: 0; */
         background-size: 120%;
         background-attachment: fixed;
     }
@@ -295,14 +261,12 @@ ul {
     
     45% {
         background: url('../images/big_capaOpacidad.jpg') no-repeat center center/cover ;
-        /* opacity: 0; */
         background-size: 143%;
         background-attachment: fixed;
         background-position: left;
     }
 
     55% {
-        /* opacity: 1; */
         color-interpolation-filters: linearRGB;
         background: url('../images/big_2_opacidad.jpg') no-repeat center center/cover ;
         background-size: 148%;
@@ -312,7 +276,6 @@ ul {
 
     }
     to {
-        /* opacity: 1; */
         background: url('../images/big_2_opacidad.jpg') no-repeat center center/cover ;
         background-size: 180%;
         background-attachment: fixed;
@@ -365,19 +328,15 @@ ul {
 
 
         .boxProductos {
-            /* box-sizing: content-box; */
             background-color: rgba(63, 48, 199, 0.651);
             position: relative;
             border-radius: 20px;
             width: 100%;
             height: 250px;
             display: flex;
-            /* min-width: 300px; */
-            /* max-width: 400px; */ 
             min-height: -webkit-fill-available;
             justify-content: center;
             align-items: center;
-            /* width: 200px; */
             animation-fill-mode: both;
             overflow: hidden;
             box-shadow: 3px 5px 10px 0px #000000;
@@ -393,13 +352,9 @@ ul {
                 max-height: 100%;
                 height: auto;
                 max-height: 220px;
-                /* position: relative; */
                 margin-right: 10px;
                 margin-left: 10px;
                 align-items: center;
-                /* object-fit: contain; */
-                /* scale: 80%; */
-                /* transition: scale 300ms cubic-bezier(0.43, 0.2, 0.59, 1.6); */
                 view-timeline-name: --image;
                 view-timeline-axis: block;
                 animation-timeline: --image;
@@ -434,24 +389,16 @@ ul {
                 border-radius: 20px;
                 text-shadow: 0px 0px 4px #000000;
                 h3 {
-                    /* position: absolute; */
-                    /* top: 50%;
-                    left: 50%; */
-                    /* transform: translate(-50%, -50%); */
                     color: #ffffff;
-                    /* background-color: rgba(0, 0, 0, 0.5); Fondo semitransparente */
                     padding: 10px 20px;
                     font-size: 26px;
                     text-align: center;
-                    /* border-radius: 5px; */
                 }
                 p {
                     font-size: 20px;
                     text-align: center;
                     text-anchor: middle;
-                    /* text-shadow: 0px 0px 8px black; */
                     filter: drop-shadow(2px 2px 1px rgb(3, 3, 7));
-                    /* line-height: normal; */
                     margin: 1px;
                 }
             }
@@ -460,17 +407,11 @@ ul {
         
         div:hover {
             
-            /* display: flex; */
-            /* max-width: 320px; */
             scale: 110%;
             transition: scale 300ms cubic-bezier(0.43, 0.2, 0.59, 1.6);
-            /* height: 100%; */
             max-height: auto;
             position: relative;
-            /* margin-right: 10px;
-            margin-left: 10px; */
             align-items: center;
-            /* overflow: hidden; */
         }
 
 
@@ -482,9 +423,7 @@ ul {
     width: 80vw;
     height: auto;
     display: grid;
-    /* flex-wrap: wrap; */
     gap: 50px;
-    /* justify-content: space-between; */
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 25rem), 1fr));
     grid-auto-rows: 30rem;
     grid-auto-flow: dense;
@@ -535,7 +474,6 @@ ul {
     border-radius: 10px;
     box-shadow: 5px 8px 12px black;
     text-shadow: 1px 3px black;
-    /* max-width: 40%; */
 
     h2 {
         padding-bottom: 30px;
@@ -548,7 +486,6 @@ ul {
 
 .sectionNosotros1 {
     width: 80vw;
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -560,7 +497,6 @@ ul {
 }
 
 .sectionNosotros1> div {    
-    /* height: 1000px; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -589,7 +525,6 @@ hr {
 
 /*  SECTION SERVICIOS */
 .sectionServicios {
-    /* height: 80vh; */
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -665,7 +600,6 @@ hr {
 
 /* PRODUCTOS  */
 .productos {
-    /* margin-top: 150px; */
     margin-bottom: 150px;
 }
 
@@ -741,19 +675,12 @@ header .nav-links.active {
 
     /*///7 HEROOO  /////*-*/
         .hero {
-            /* background: url(../images/big_capaOpacidad.jpg) no-repeat center center / cover; */
-            /* position: absolute; */
-            /* height: 87vh; */
-            /* width: 100%; */
-            /* display: flex; */
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
             color: rgb(253, 253, 253);
             text-align: center;
             background-attachment: fixed;
-            /* margin-top: 100px; */
-            /* position: fixed; */
             align-content: center;
             
             .Bienvenido {
@@ -764,18 +691,13 @@ header .nav-links.active {
 
         
         h1 {
-            /* position: absolute; */
             flex-wrap: nowrap;
-            /* display: flex; */
             font-size: 33px;
-            /* margin-bottom: 10px; */
             margin-left: 0;
             margin-top: 0;
             margin-right: 0;
             max-width: 75%;
-            /* max-height: 130px; */
             text-align: center;
-            /* min-inline-size: unset; */
             animation-name: change-clip-path;
             animation-duration: 800ms;
             animation-timing-function: linear;
@@ -802,14 +724,11 @@ header .nav-links.active {
         .box {
             position: relative;
             display: flex;
-            /* inline-size: 200px; */
-            /* flex-wrap: nowrap; */
             width: auto;
             max-width: initial;
             height: 160px;
             max-height: 160px;
             min-width: auto;
-            /* max-width: 100%; */
             border: 4px solid white;
             background: rgb(25, 40, 128, 0.3);
             animation-name: change-width-780;
@@ -876,8 +795,6 @@ header .nav-links.active {
     .sectionServicios {
 
         height: 100%;
-        /* margin-bottom: 50px;
-        margin-top: 150px; */
         h1 {
             font-size: 30px;
             text-align: center;
@@ -917,7 +834,6 @@ header .nav-links.active {
         height: 100%;
         font-size: 18px;
         width: 100%;
-        /* margin-top: 100px; */
 
         div {
             height: auto;
@@ -947,34 +863,25 @@ header .nav-links.active {
     @keyframes back-change {
         0% {
             background: url('../images/big_capaOpacidad.jpg') no-repeat center center/cover ;
-            /* opacity: 0; */
-            /* background-size: 120%; */
             background-attachment: fixed;
         }
 
         
         45% {
             background: url('../images/big_capaOpacidad.jpg') no-repeat center center/cover ;
-            /* opacity: 0; */
-            /* background-size: 143%; */
             background-attachment: fixed;
             background-position: left;
         }
 
         55% {
-            /* opacity: 1; */
-            /* color-interpolation-filters: linearRGB; */
             background: url('../images/big_2_opacidad.jpg') no-repeat center center/cover ;
-            /* background-size: 148%; */
             background-attachment: fixed;
             background-position-x: left ;
 
 
         }
         to {
-            /* opacity: 1; */
             background: url('../images/big_2_opacidad.jpg') no-repeat center center/cover ;
-            /* background-size: 180%; */
             background-attachment: fixed;
         }
     }
