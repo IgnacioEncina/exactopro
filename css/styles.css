@@ -135,6 +135,8 @@ ul {
         margin-left: 100px;
         min-width: 350px;
         max-width: 100%;
+        height: 70%;
+        justify-content: flex-start;
     }
 
     .imgHero {
@@ -150,7 +152,6 @@ ul {
         font-size: 48px;
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 15px;
         text-align: left;
         animation-name: change-clip-path;
         animation-duration: 800ms;
@@ -740,7 +741,7 @@ header .nav-links.active {
             justify-content: center;
         }
 
-        p {
+        h2 {
             max-width: 100%;
             font-size: 20px;
             text-align: center;
