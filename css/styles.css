@@ -349,10 +349,9 @@ ul {
                 position: absolute;
                 width: 100%;
                 padding: 25px;
-                max-width: 100%;
-                max-height: 100%;
+                max-width: max-content;
+                max-height: max-content;
                 height: auto;
-                max-height: 220px;
                 margin-right: 10px;
                 margin-left: 10px;
                 align-items: center;
