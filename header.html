@@ -3,7 +3,14 @@
 <header>
     <nav class="navbar">
       <div class="logo">
-        <a href="index.html" title="exacto pro | Home"><img src="images/Logo_smallPNG.png" alt="Exacto Pesaje Logo" title="logo exacto pro"></a>
+        <a href="index.html" title="exacto pro | Home"></a>
+          <picture>
+            <source media="(max-width:768px)" srcset="images/Logo_MOBILPNG.png" />
+            <source media="(min-width:769px)" srcset="images/Logo_smallPNG.png"" />
+            <img src="images/Logo_smallPNG.png"" alt="logo exacto pro" title="logo exacto pro" >
+          </picture>
+        <!-- <img src="images/Logo_smallPNG.png" alt="Exacto Pesaje Logo" title="logo exacto pro"> -->
+        </a>
       </div>
       <div class="menu-icon" id="menu-icon">
         &#9776;
