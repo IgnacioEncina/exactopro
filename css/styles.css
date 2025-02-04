@@ -422,6 +422,7 @@ ul {
 .section3 {
     width: 80vw;
     height: auto;
+    max-width: 1200px;
     display: grid;
     gap: 50px;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 25rem), 1fr));
@@ -607,6 +608,60 @@ hr {
 .sectionContacto {
     width: 80%;
     margin-top: 40px;
+
+    form {
+        width: 700px;
+        margin: auto;
+        background-color: #8bf;
+        padding: 30px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+
+            label {
+                width: 20%;
+            }
+        }
+
+
+        input {
+            margin: 12px;
+            padding: 8px;
+            width: 70%;
+            border-radius: 5px;
+            border: none;
+        } 
+        
+        textarea {
+            margin: 12px;
+            padding: 8px;
+            min-width: 70%;
+            max-width: 70%;
+            border-radius: 10px;
+            min-height: 100px;
+            max-height: 300px;
+        }
+    }
+
+   
+
+    button {
+        width: 100px;
+        height: 30px;
+        background-color: rgb(83, 104, 199);
+        color: #fff;
+        border-radius: 5px;
+    }
+
+
 }
 
 /* Footer */
@@ -864,6 +919,7 @@ header .nav-links.active {
         0% {
             background: url('../images/big_capaOpacidad.webp') no-repeat center center/cover ;
             background-attachment: fixed;
+            
         }
 
         
@@ -871,18 +927,21 @@ header .nav-links.active {
             background: url('../images/big_capaOpacidad.webp') no-repeat center center/cover ;
             background-attachment: fixed;
             background-position: left;
+            
         }
 
         55% {
             background: url('../images/big_2_opacidad.webp') no-repeat center center/cover ;
             background-attachment: fixed;
             background-position-x: left ;
+            
 
 
         }
         to {
             background: url('../images/big_2_opacidad.webp') no-repeat center center/cover ;
             background-attachment: fixed;
+            
         }
     }
 }

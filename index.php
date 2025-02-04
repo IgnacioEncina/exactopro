@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -38,7 +38,7 @@
         <section class="section2">
           <h2>Productos y Servicios</h2>
           <div class="container2">
-            <a href="basculaPortatil.html" title="venta y mantenimiento de bascula portatil">
+            <a href="basculaPortatil.php" title="venta y mantenimiento de bascula portatil">
               <div class="boxProductos">
                 <div class="boxImage">
                     <img src="images/Bascula_portatil1_small.webp" alt="Báscula Portatil" title="bascula portatil" >
@@ -50,7 +50,7 @@
                 </div> 
               </div>
             </a>
-            <a href="balanzas.html" title="Venta y mantenimiento de balanzas portatil">
+            <!-- <a href="balanzas.php" title="Venta y mantenimiento de balanzas portatil">
               <div class="boxProductos">
                 <div class="boxImage">
                   <img src="images/Optimizadas/pesa1_smallWEBP.webp" alt="pesa sobremesa" title="pesa sobremesa"">
@@ -63,8 +63,8 @@
                   <p>Display LED.</p> 
                 </div>
               </div>
-            </a>
-            <a href="certificaciones.html" title="certificacion de calibracion">
+            </a> -->
+            <!-- <a href="certificaciones.php" title="certificacion de calibracion">
               <div class="boxProductos">
                 <div class="boxImage">
                   <img src="images/Optimizadas/Certificacion_smallWEBP.webp" alt="certificacion de calibracion" title="certificacion de calibracion">
@@ -75,8 +75,8 @@
                     Mantenimiento de sus equipos de pesaje.</p>
                 </div>
               </div>
-            </a>
-            <a href="mantenimiento.html" title="mantenimiento de balanzas">
+            </a> -->
+            <!-- <a href="mantenimiento.php" title="mantenimiento de balanzas">
               <div class="boxProductos">
                 <div class="boxImage">
                   <img src="images/Optimizadas/repair_16325030_smallWEBP.webp" alt="mentencion de balanzas" title="mantencion de balanzas">
@@ -87,8 +87,8 @@
                     Mantenimiento de sus equipos de pesaje.</p>
                 </div>
               </div>
-            </a>
-            <a href="pedestales.html" title="venta y mantenimiento de balanzas tipo pedestal">
+            </a> -->
+            <!-- <a href="pedestales.php" title="venta y mantenimiento de balanzas tipo pedestal">
               <div class="boxProductos">
                 <div class="boxImage">
                   <img src="images/Optimizadas/Pedestal1_smallWEBP.webp" alt="balanzas de pedestal" title="venta de balanzas de pedestal">
@@ -99,8 +99,8 @@
                     Mantenimiento de sus equipos de pesaje.</p>
                 </div>
               </div>
-            </a>
-            <a href="plataformas.html" title="venta y mantenimiento de balanzas tipo plataforma">
+            </a> -->
+            <a href="plataformas.php" title="venta y mantenimiento de balanzas tipo plataforma">
               <div class="boxProductos">
                 <div class="boxImage">
                   <img src="images/Optimizadas/plataforma1_smallWEBP.webp" alt="balanza tipo plataforma" title="ventas y mantencion de balanzas tipo plataforma">
@@ -112,6 +112,29 @@
                 </div>
               </div>
             </a>
+            <!-- <a href="plataformas.php" title="venta y mantenimiento de balanzas tipo plataforma">
+              <div class="boxProductos">
+                <div class="boxImage">
+                  <img src="images/Optimizadas/plataforma1_smallWEBP.webp" alt="balanza tipo plataforma" title="ventas y mantencion de balanzas tipo plataforma">
+                </div>
+                <div class="boxText">
+                  <h3>Indicador de peso y Accesorios</h3>
+                  <p>Contamos con servicio técnico en terreno para el optimo
+                    Mantenimiento de sus equipos de pesaje.</p>
+                </div>
+              </div>
+            </a>
+            <a href="plataformas.php" title="venta y mantenimiento de balanzas tipo plataforma">
+              <div class="boxProductos">
+                <div class="boxImage">
+                  <img src="images/Optimizadas/plataforma1_smallWEBP.webp" alt="balanza tipo plataforma" title="ventas y mantencion de balanzas tipo plataforma">
+                </div>
+                <div class="boxText">
+                  <h3>Software de Pesaje</h3>
+                  <p>Sistema de informe digital con todo tipo de reportes y adaptable a las necesidades del cliente.</p>
+                </div>
+              </div>
+            </a> -->
           </div>
         </section>
         <hr>

@@ -35,6 +35,6 @@ document.addEventListener('DOMContentLoaded', function () {
           .catch(error => console.log(error));
     }
 
-    loadHTML('header.html', 'header');
-    loadHTML('footer.html', 'footer');
+    loadHTML('header.php', 'header');
+    loadHTML('footer.php', 'footer');
 });

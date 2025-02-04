@@ -16,10 +16,10 @@
         &#9776;
       </div>
       <ul class="nav-links" id="nav-links">
-        <li><a href="index.html" title="Exacto pro | home">Inicio</a></li>
-        <li><a href="servicios.html" title="Servicios de Venta y mantenimiento de basculas y balanzas">Servicios</a></li>
-        <li><a href="nosotros.html" title="about us">Nosotros</a></li>
-        <li><a href="contacto.html" title="contacto de exacto pro ventas y servicios">Contacto</a></li>
+        <li><a href="index.php" title="Exacto pro | home">Inicio</a></li>
+        <li><a href="servicios.php" title="Servicios de Venta y mantenimiento de basculas y balanzas">Servicios</a></li>
+        <li><a href="nosotros.php" title="about us">Nosotros</a></li>
+        <li><a href="contacto.php" title="contacto de exacto pro ventas y servicios">Contacto</a></li>
       </ul>
     </nav>
     <div class="headerBottom">

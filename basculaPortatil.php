@@ -18,7 +18,7 @@
     <main>
         <section class="sectionServicios productos">
             <h1>Plataformas Portátiles peso estático</h1>
-            <img src="images/Bascula_portatil1.png" alt="Bascula Portatil" title="Bascula Portatil">
+            <img src="images/Bascula_portatil1_small.png" alt="Bascula Portatil" title="Bascula Portatil">
             <div>
                 <h3>Características</h3>
                 <ul>
